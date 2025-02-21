@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN","7223328204:AAFAS84n-p_TVlHzyN4tQjuImDmJyGsgvr8")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://untoldp:untoldp@untoldp.zdixt.mongodb.net/?retryWrites=true&w=majority&appName=untoldp")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 800))
 
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002054683372"))
@@ -26,9 +26,9 @@ OWNER_ID = int(getenv("OWNER_ID", 7609473102))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","gg")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","navnit")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY","gg")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY","HRKU-417b5d4b-0c2c-4442-a551-21a2faad12d6")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
