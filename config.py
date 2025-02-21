@@ -7,28 +7,28 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","27655052"))
+API_HASH = getenv("API_HASH","69f7666ce277f90916d85d1373e8b318")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","7223328204:AAFAS84n-p_TVlHzyN4tQjuImDmJyGsgvr8")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://untoldp:untoldp@untoldp.zdixt.mongodb.net/?retryWrites=true&w=majority&appName=untoldp")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002054683372"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", 7609473102))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","gg")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY","gg")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", "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"
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Resso_music_group")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Hindi_English_singing_group_chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NKM0DNK")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/GOOD_MORNIG_GOOD_NIGHT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION","BQGl-4wAjqCGcuQDXKl53ax8hV4K0Xir5LWr9prvpX_UImP8md6imof_bpKyeWkmTcSqFWH5xLi0QfcxSk8oRn7VxIdoFYNyfoWORGifJCSA6Ifr_hA8rzmP7zVPiNgK8y2Cbd2G6M6h6p0xvzlU8ItkHweXsI64XQVHqk_2VuUzjH1ooYxxA13g2hBliGv-uluE4z6v5QKNw0AwFvGesHeyi9hCAVsx1WVO-rEbUlc8Jcy2Mc-68roUOPL_RWj-W9Q1-qR4FPKdJ7NbP6mAd4i-XRm5I_2Dk5jwxJ4qum3jmt1VuHECO-lvX3y7lbcgCVuc6iX7LldN4GcnbTL6keKZH0dYzwAAAAG_CNDgAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
