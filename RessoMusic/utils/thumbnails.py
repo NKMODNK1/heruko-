@@ -85,7 +85,7 @@ async def gen_thumb(videoid: str):
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
         blurred_thumbnail = youtube.filter(ImageFilter.GaussianBlur(7))
-        icon_path = "TeamSuperBan/AM/tt.png"
+        icon_path = "RessoMusic/AM/tt.png"
         icon = Image.open(icon_path)
         icon_size = (850, 800)
         icon = icon.resize(icon_size)
@@ -115,7 +115,7 @@ async def gen_thumb(videoid: str):
     )
         blurred_thumbnail.paste(original_with_border, original_position)
         try:
-            font = ImageFont.truetype("TeamSuperBan/AM/f.ttf", 20)
+            font = ImageFont.truetype("RessoMusic/AM/f.ttf", 20)
         except IOError:
             font = ImageFont.load_default()
         draw = ImageDraw.Draw(blurred_thumbnail)
